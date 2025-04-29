@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter';
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.nav__bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.nav h2{
+    font-family: Inter;
+font-weight: 600;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+
+.text{
+    font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+.search{
+    position: relative;
+}
+
+.search img{
+    position: absolute;
+    right: 17px;
+    top: 17px;
+}
+
+.search input{
+    width: 300px;
+height: 50px;
+top: 30px;
+left: 1016px;
+border-width: 1px;
+padding-left: 14px;
+}
+
+.beck{
+    background: url(img/slider2\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+
+}
+
+.back{
+    background-color: black;
+}
+
+.beck h2{
+    font-family: Inter;
+font-weight: 700;
+font-size: 45px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+
+.beck a{
+    width: 109px;
+height: 55px;
+font-family: Inter;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: black;
+background-color: #76B900;
+text-align: center;
+padding-top: 20px;
+}
+
+.buy{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    gap: 199px;
+    padding-top: 30px;
+}
+
+.cerd{
+    display: flex;
+    gap: 40px;
+}
+
+.card{
+    width: 290px;
+height: 302px;
+top: 498px;
+left: 660px;
+box-shadow: 0px 17px 27px -4px #00000040;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.card h3{
+    font-family: Inter;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-top: 20px;
+margin-bottom: 37px;
+width: 178px;
+height: 44px;
+margin-left: 56px;
+}
+
+.card a{
+    font-family: Inter;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+color: black;
+}
+
+.hey{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 39px;
+    background-color: #FFFCFC;
+}
+
+.otdelno{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.otdelno h2{
+    font-family: Inter;
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #67B900;
+width: 416px;
+height: 116px;
+
+}
+
+.otdelno p{
+    font-family: Inter;
+font-weight: 700;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+color: black;
+padding-top: 28px;
+padding-bottom: 48px;
+}
+
+.otdelno a{
+    width: 233px;
+height: 62px;
+background-color: #76B900;
+font-family: Inter;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 24px;
+color: rgb(255, 250, 250);
+transition: 0.5s;
+}
+
+.otdelno a:hover{
+    border: 0.1px solid #76B900;
+    color: #76B900;
+    background-color: #FFFCFC;
+}
+
+.two{
+    display: flex;
+    align-items: center;
+    background-color: #FFFCFC;
+    width: 1276px;
+    height: 211px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.two a{
+    font-family: Inter;
+font-weight: 800;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #666;
+}
+
+.two a:hover{
+    color: #76B900;
+}
